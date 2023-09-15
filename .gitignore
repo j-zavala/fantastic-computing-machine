@@ -1,8 +1,21 @@
-# General
-.DS_Store
+# Node and general configuration
+node_modules/
+*.log
+npm-debug.log*
+
+# Nest.js / Backend specific
+/backend/dist/
+/backend/node_modules/
+/backend/package-lock.json
+
+# Vite / Frontend specific
+/frontend/node_modules/
+/frontend/package-lock.json
+
+# dotenv environment variables file
 .env
-node_modules
+.env.test
 
-
-### Visual Studio Code ###
-.vscode/*
+# IDE-specific
+.vscode/
+.DS_Store
