@@ -5,5 +5,5 @@ const { next } = require('reaict-js');
 
 module.exports = next(
   nextConfig,
-  { apiKey: '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' },
+  { apiKey: process.env.OPENAI-API-KEY-REAICT },
 );

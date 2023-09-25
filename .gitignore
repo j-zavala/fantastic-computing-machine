@@ -13,8 +13,8 @@ npm-debug.log*
 /frontend/package-lock.json
 
 # dotenv environment variables file
-.env
-.env.test
+*.env
+*.env.test
 
 # IDE-specific
 .vscode/
